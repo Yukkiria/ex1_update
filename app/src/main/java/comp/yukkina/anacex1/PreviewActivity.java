@@ -41,7 +41,7 @@ private static final String MESSAGE="MSG";
 
         private void open_Email(String msg) {
             Intent intent = new Intent(Intent.ACTION_SENDTO);
-            intent.setData(Uri.parse("mailto:"));
+            intent.setData(Uri.parse("mailto:andr.academy.msk@gmail.com"));
             intent.putExtra(Intent.EXTRA_SUBJECT, getString(R.string.default_subject));
            // intent.putExtra(Intent.EXTRA_CC,addr);
             intent.putExtra(Intent.EXTRA_TEXT, msg);
