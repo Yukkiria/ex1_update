@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Ex1</string>
+    <string name="msg_edit">Type your message here...</string>
+    <string name="preview">PREVIEW</string>
+    <string name="email">Почта</string>
+    <string name="warning">Please enter your message</string>
+    <string name="warning_no_email">No Email app found</string>
+    <string name="default_subject">Hello, Android Academy MSK!</string>
+</resources>
